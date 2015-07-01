@@ -11,7 +11,7 @@
 
 <%
 Class.forName("com.mysql.jdbc.Driver");
-Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "123456");
+Connection conn = DriverManager.getConnection("jdbc:mysql://172.30.11.125:3306/test", "user8Pu", "GmsfIFok");
 Statement stmt = conn.createStatement();
 ResultSet rs = stmt.executeQuery("select * from account");
 %>
